@@ -4,89 +4,191 @@
 
 <head>
 
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Inovações Tecnológicas</title>
+  <title>Meu Site Criativo</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+
+    body {
+
+      background-color: #e9ecef;
+
+    }
+
+    .navbar {
+
+      background-color: #007bff;
+
+    }
+
+    .navbar-brand, .nav-link {
+
+      color: white !important;
+
+    }
+
+    .hero {
+
+      background: url('https://source.unsplash.com/1600x400/?nature,water') no-repeat center center;
+
+      background-size: cover;
+
+      color: white;
+
+      padding: 100px 0;
+
+      text-align: center;
+
+    }
+
+    .footer {
+
+      background-color: #343a40;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 20px;
+
+      position: relative;
+
+    }
+
+    .card {
+
+      margin: 20px 0;
+
+    }
+
+  </style>
 
 </head>
 
 <body>
 
-  <header class="bg-primary text-white p-3">
+
+
+  <nav class="navbar navbar-expand-lg">
 
     <div class="container">
 
-      <h1>Inovações Tecnológicas</h1>
+      <a class="navbar-brand" href="#">Meu Site Criativo</a>
 
-      <nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-        <ul class="nav">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
 
           <li class="nav-item">
 
-            <a class="nav-link text-white" href="#">Início</a>
+            <a class="nav-link" href="#sobre">Sobre</a>
 
           </li>
 
           <li class="nav-item">
 
-            <a class="nav-link text-white" href="#">Sobre</a>
+            <a class="nav-link" href="#servicos">Serviços</a>
 
           </li>
 
           <li class="nav-item">
 
-            <a class="nav-link text-white" href="#">Contato</a>
+            <a class="nav-link" href="#contato">Contato</a>
 
           </li>
 
         </ul>
 
-      </nav>
+      </div>
 
     </div>
 
-  </header>
+  </nav>
 
-  <main class="container mt-4">
+
+
+  <div class="hero">
+
+    <h1>Bem-vindo ao Meu Site</h1>
+
+    <p>Explore nossas ideias criativas e inovações!</p>
+
+    <a href="#servicos" class="btn btn-light btn-lg">Saiba Mais</a>
+
+  </div>
+
+
+
+  <div class="container mt-5" id="sobre">
+
+    <h2>Sobre Nós</h2>
+
+    <p>Nós somos uma equipe dedicada a trazer soluções criativas para seus projetos. Combinamos inovação e tecnologia para alcançar resultados impressionantes.</p>
+
+  </div>
+
+
+
+  <div class="container mt-5" id="servicos">
+
+    <h2>Nossos Serviços</h2>
 
     <div class="row">
 
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4">
 
-        <div class="p-3 bg-light border">
+        <div class="card">
 
-          <h2>A resolução da Inteligência Artificial</h2>
+          <div class="card-body">
 
-          <p>A inteligência artificial está mudando o mundo de maneiras antes inimagináveis. Com aplicações que vão desde diagnósticos médicos até veículos autônomos, a IA está transformando indústrias e melhorando a eficiência em diversas áreas. O futuro promete ainda mais inovações incríveis, impulsionadas por aprendizado de máquina e redes neurais avançadas.</p>
+            <h5 class="card-title">Desenvolvimento Web</h5>
 
-        </div>
+            <p class="card-text">Criamos sites responsivos e atraentes para sua empresa.</p>
 
-      </div>
-
-      <div class="col-md-4 mb-4">
-
-        <div class="p-3 bg-light border">
-
-          <h2>O Impacto das Tecnologias Sustentáveis</h2>
-
-          <p>Em um mundo onde as questões ambientais são cada vez mais urgentes, as tecnologias sustentáveis desempenham um papel crucial. Energia solar, eólica e soluções inovadoras para a redução de desperdício estão na vanguarda de uma mudança global em direção a práticas mais ecológicas. Essas inovações estão moldando um futuro mais limpo e verde para as próximas gerações.</p>
+          </div>
 
         </div>
 
       </div>
 
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4">
 
-        <div class="p-3 bg-light border">
+        <div class="card">
 
-          <h2>A Era do 5G e a Internet das Coisas</h2>
+          <div class="card-body">
 
-          <p>Com a chegada do 5G, a conectividade está prestes a dar um salto gigantesco. A Internet das Coisas (IoT) já está transformando casas, cidades e indústrias, mas o 5G vai expandir ainda mais essas possibilidades. Imagine um mundo onde dispositivos se comunicam instantaneamente, tornando a automação e a eficiência uma realidade em todos os aspectos do cotidiano.</p>
+            <h5 class="card-title">Design Gráfico</h5>
+
+            <p class="card-text">Desenvolvemos identidades visuais que destacam sua marca.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Consultoria</h5>
+
+            <p class="card-text">Oferecemos consultoria para otimizar seus processos.</p>
+
+          </div>
 
         </div>
 
@@ -94,25 +196,61 @@
 
     </div>
 
-  </main>
+  </div>
 
-  <footer class="bg-dark text-white text-center p-3 mt-4">
 
-    <div class="container">
 
-      <p>&copy; <span id="ano"></span> Minha Página Web.</p>
+  <div class="container mt-5" id="contato">
 
-    </div>
+    <h2>Contato</h2>
 
-  </footer>
+    <form>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="form-group">
 
-  <script>
+        <label for="nome">Nome</label>
 
-    document.getElementById('ano').textContent = new Date().getFullYear();
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
 
-  </script>
+      </div>
+
+      <div class="form-group">
+
+        <label for="email">Email</label>
+
+        <input type="email" class="form-control" id="email" placeholder="Seu email">
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="mensagem">Mensagem</label>
+
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem"></textarea>
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+
+  </div>
+
+
+
+  <div class="footer">
+
+    <p>&copy; 2024 Meu Site Criativo. Todos os direitos reservados.</p>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
